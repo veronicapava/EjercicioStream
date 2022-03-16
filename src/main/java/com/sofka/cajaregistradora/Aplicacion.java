@@ -39,7 +39,7 @@ public class Aplicacion {
                 isAfter(LocalDate.of(2023,02,25))).collect(Collectors.toList());
 
 
-        //Imprimiendo electrodomesticos
+        //Imprimiendo facturas
         System.out.println(facturasPorImporte.isEmpty()?"No se encontraron facturas que tengan electrodomésticos con el importe ingresado":
                 "Facturas solicitadas por electrodomésticos con el importe ingresado: \n"+facturasPorImporte);
 
